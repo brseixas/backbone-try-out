@@ -16,7 +16,8 @@
     });
 
     window.template = function(id) {
-        return _.template($('#' + id).html());
+        return Handlebars.compile($('#' + id).html());
+        // return _.template($('#' + id).html());
     };
 
 

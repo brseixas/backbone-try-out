@@ -9,11 +9,12 @@
     <body>
 
         <script src="lib/jquery.js"></script>
+        <script src="lib/handlebars-v1.3.0.js"></script>
         <script src="lib/underscore.js"></script>
         <script src="lib/backbone.js"></script>
 
         <script id="personTemplate" type="text/template">
-            <span><strong><%= name %></strong> (<%= age %>) - <%= occupation %></span>
+            <span><strong>{{name}}</strong> ({{age}}) - {{occupation}}</span>
             <button class="edit">Edit</button>
             <button class="delete">Delete</button>
         </script>
