@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Backbone Try out</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+
+    <body>
+
+        <script src="lib/jquery.js"></script>
+        <script src="lib/underscore.js"></script>
+        <script src="lib/backbone.js"></script>
+
+        <script id="personTemplate" type="text/template">
+            <span><strong><%= name %></strong> (<%= age %>) - <%= occupation %></span>
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </script>
+
+        <div style="float:left;width:50%">
+            <form id="addPerson" action="">
+                <fieldset>
+                    <legend>Form</legend>
+                    <label for="person-name">Person name:</label>
+                    <input id="person-name" type="text" placeholder="Name of the person">
+                    <input type="submit" value="Add Person">
+                </fieldset>
+            </form>
+        </div>
+        <div id="person-list" style="float:left;text-align: left;">
+
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
