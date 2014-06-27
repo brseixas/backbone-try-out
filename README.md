@@ -1,7 +1,8 @@
 backbone-try-out
 ================
 
-A simple SPA application with Backbone. CRUD operations. No Routes.
+A simple CRUD application with Backbone. 
+No Routes are used.
 
 References:
 
